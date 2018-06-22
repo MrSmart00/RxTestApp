@@ -18,7 +18,7 @@
 		C50E3DB720D8AD5F000B3CE2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50E3DB520D8AD5F000B3CE2 /* RxSwift.framework */; };
 		C50E3DBC20D8B3A2000B3CE2 /* MVVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3DBB20D8B3A2000B3CE2 /* MVVMModel.swift */; };
 		C50E3DBE20D8F4E8000B3CE2 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3DBD20D8F4E8000B3CE2 /* MVVMViewModel.swift */; };
-		C51CA4CB20DB786400B61C8B /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51CA4CA20DB786400B61C8B /* MVCViewController.swift */; };
+		C51CA4CB20DB786400B61C8B /* FatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51CA4CA20DB786400B61C8B /* FatViewController.swift */; };
 		C51CA4CD20DB7A1A00B61C8B /* ContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51CA4CC20DB7A1A00B61C8B /* ContentData.swift */; };
 		C51CA4D120DB7FF600B61C8B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51CA4D020DB7FF600B61C8B /* CollectionViewCell.swift */; };
 		C556B29420DA575500DB7410 /* String.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556B29220DA575500DB7410 /* String.extension.swift */; };
@@ -60,7 +60,7 @@
 		C50E3DB520D8AD5F000B3CE2 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		C50E3DBB20D8B3A2000B3CE2 /* MVVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModel.swift; sourceTree = "<group>"; };
 		C50E3DBD20D8F4E8000B3CE2 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
-		C51CA4CA20DB786400B61C8B /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
+		C51CA4CA20DB786400B61C8B /* FatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatViewController.swift; sourceTree = "<group>"; };
 		C51CA4CC20DB7A1A00B61C8B /* ContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentData.swift; sourceTree = "<group>"; };
 		C51CA4D020DB7FF600B61C8B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		C556B29220DA575500DB7410 /* String.extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.extension.swift; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 				C50E3D8C20D8AACE000B3CE2 /* Assets.xcassets */,
 				C50E3D8E20D8AACE000B3CE2 /* LaunchScreen.storyboard */,
 				C50E3D9120D8AACE000B3CE2 /* Info.plist */,
-				C51CA4CA20DB786400B61C8B /* MVCViewController.swift */,
+				C51CA4CA20DB786400B61C8B /* FatViewController.swift */,
 				C51CA4CC20DB7A1A00B61C8B /* ContentData.swift */,
 				C51CA4D020DB7FF600B61C8B /* CollectionViewCell.swift */,
 			);
@@ -328,7 +328,7 @@
 				C50E3DBC20D8B3A2000B3CE2 /* MVVMModel.swift in Sources */,
 				C50E3D8620D8AACD000B3CE2 /* AppDelegate.swift in Sources */,
 				C50E3DBE20D8F4E8000B3CE2 /* MVVMViewModel.swift in Sources */,
-				C51CA4CB20DB786400B61C8B /* MVCViewController.swift in Sources */,
+				C51CA4CB20DB786400B61C8B /* FatViewController.swift in Sources */,
 				C556B29520DA575500DB7410 /* App.extension.swift in Sources */,
 				C556B29420DA575500DB7410 /* String.extension.swift in Sources */,
 			);

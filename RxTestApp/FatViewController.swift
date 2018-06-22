@@ -1,5 +1,5 @@
 //
-//  MVCViewController.swift
+//  FatViewController.swift
 //  RxTestApp
 //
 //  Created by HINOMORI HIROYA on 2018/06/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MVCViewController: UIViewController {
+class FatViewController: UIViewController {
 
     @IBOutlet weak private var collectionView: UICollectionView!
     private let apiURL = "https://api.syosetu.com/novelapi/api/?ispickup=1&order=hyoka&lim=50&out=json"
@@ -60,7 +60,7 @@ class MVCViewController: UIViewController {
 
 }
 
-extension MVCViewController: UICollectionViewDataSource {
+extension FatViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return contents.count

@@ -9,11 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MVC-->
+        <!--Fat-->
         <scene sceneID="RLR-d1-gNJ">
             <objects>
                 <navigationController id="a4b-df-Mcb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="MVC" id="TSL-gs-KcU"/>
+                    <tabBarItem key="tabBarItem" title="Fat" id="TSL-gs-KcU"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="p56-xk-dwx">
                         <rect key="frame" x="0.0" y="20" width="187.5" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="646" y="333"/>
         </scene>
-        <!--MVC-->
+        <!--Fat-->
         <scene sceneID="ACp-iT-Q6U">
             <objects>
-                <viewController id="VNo-cU-9nf" customClass="MVCViewController" customModule="RxTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VNo-cU-9nf" customClass="FatViewController" customModule="RxTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0OI-uW-EB1">
                         <rect key="frame" x="0.0" y="0.0" width="187.5" height="598"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,7 +162,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ezI-J5-9ak"/>
                     </view>
-                    <navigationItem key="navigationItem" title="MVC" id="irx-Sb-WM8"/>
+                    <navigationItem key="navigationItem" title="Fat" id="irx-Sb-WM8"/>
                     <connections>
                         <outlet property="collectionView" destination="a82-qo-jSD" id="krb-t1-NpJ"/>
                     </connections>
